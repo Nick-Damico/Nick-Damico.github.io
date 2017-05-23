@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  { Learning to Code } 
-date:   2017-05-23 02:33:53 +0000
+title:  Learning to Code 
+date:   2017-05-22 22:33:54 -0400
 ---
 
 
