@@ -5,7 +5,7 @@ date:   2017-06-08 19:01:03 -0400
 ---
 
 
-If you are learning Ruby either from an online tutorial or book chances are you have worked with IRB. If you haven't, IRB means 'Interactive Ruby', the RB is a reference to the .rb extension of Ruby files. It's a Ruby shell that runs in the command line and it allows us to experiment with code and receive a immediate response that executes our code and shows its return value. Below we open the 'irb' shell with the command `irb`. Then we are free to experiment:
+If you are learning Ruby either from an online tutorial or book chances are you have worked with IRB. If you haven't, IRB means 'Interactive Ruby', the RB is a reference to the .rb extension of Ruby files. It's a Ruby shell and it allows us to experiment with code and receive an immediate response that executes our code and shows its return value. Below we open the 'irb' shell with the command `irb`. Then we are free to experiment:
 
 ```
 $ irb
