@@ -72,9 +72,9 @@ From: (pry) @ line 48 Object#string_length:
 [2] pry(main)> 
 ```
 
-In the code Above, we can inspect the length variable to see if the ```length``` contains the supplied strings character length, and it does.
+In the code Above, we can inspect the ```length``` variable to see if it contains the supplied strings character length, and it does.
 
-Obviously the above is very simple and probably not a unnecessary use of ```binding.pry``` . But we can see how powerful this can be once we have a more complex function that is doing more complex manipulation to data.
+Obviously the above is very simple and probably an unnecessary use of ```binding.pry``` . But we can see how powerful this can be once we have a more complex function that is doing more complex manipulation to data.
 
 let's try iterating through an Array:
 ```
