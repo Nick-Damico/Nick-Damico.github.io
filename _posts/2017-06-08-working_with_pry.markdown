@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Working with Pry"
-date:   2017-06-08 23:01:02 +0000
+date:   2017-06-08 19:01:03 -0400
 ---
 
 
