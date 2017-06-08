@@ -5,7 +5,6 @@ date:   2017-06-08 19:01:03 -0400
 ---
 
 
-## IRB
 If you are learning Ruby either from an online tutorial or book chances are you have worked with IRB. If you haven't, IRB means 'Interactive Ruby', the RB is a reference to the .rb extension of Ruby files. It's a Ruby shell that runs in the command line and it allows us to experiment with code and receive a immediate response that executes our code and shows its return value. Below we open the 'irb' shell with the command `irb`. Then we are free to experiment:
 
 ```
@@ -23,7 +22,7 @@ $ irb
 Its really wonderful, if we are curious about a return value of a method on a String, Hash, or Array class we can find out immediately using it, but after some time we will realize its limitations.
 
 
-## Pry
+# Pry
 Pry is a REPL similar to IRB, but expands upon its functionality and allows us to 'pry' into our code and see whats going on inside of our functions and methods, this makes it extremely powerful as a debugging tool.
 
 Installing Pry
@@ -45,7 +44,7 @@ We are then free to experiment with code just like before with IRB:
 
 One thing the example above doesn't show is that Pry has syntax highlighting which helps you identify what kind of data or class you are working with.
 
-## Debugging
+# Debugging
 Let's experiment with getting inside a block of code and seeing what is going on. This is done by inserting ```binding.pry``` within the body of a function.
 ```
 pry(main)> def string_length(str)
@@ -118,7 +117,7 @@ javaScript
 ```
 
 
-## A few commands that help
+# A few commands that help
 
 * Clear Pry console: **control + l**
 * Step forward in code block loop: **control + d**
