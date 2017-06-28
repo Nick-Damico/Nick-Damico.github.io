@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RSpec getting started."
-date:   2017-06-28 02:19:34 +0000
+date:   2017-06-27 22:19:34 -0400
 ---
 
 One of the most popular Ruby libraries right now is RSpec. It's a tool for applying a Test Driven Development approach to application design where we first write tests and follow up with code that meets the test expectations. It is how our labs are structured at FlatironSchool. It allows us to concentrate first on writing a solution then going back and refactoring. It takes a lot of frustration and mystery out of what isn't working with our programs.
@@ -55,7 +55,7 @@ config	lib	spec
 And if we want to see the hidden .rpsec file, we use the command `ls -la` that lists with long format and shows hidden files with permissions.
 
 # Writing our first spec.
-Lets take a moment and talk about tests. A test should express a 'single' expectation. This helps keep our tests to one specified behavior at a time, and this will help us was we are developing to find the error for the failing test and write the code to meet the expectation then move to the next one.
+Lets take a moment and talk about tests. A test should express a 'single' expectation. This helps keep our tests to one specified behavior at a time, and this will help us as we are developing to find the error for the failing test and write the code to meet the expectation then move to the next one.
 
 To keep things very simple at first we are going to write a spec test for a method called #hello_world, very original I know. So lets create an .rb file first for our code that will be tested:
 
