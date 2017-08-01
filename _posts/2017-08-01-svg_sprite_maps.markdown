@@ -20,7 +20,7 @@ For this post I've marked up a small `<footer>` component that i'll be working w
 
 ![](https://res.cloudinary.com/nic-alan/image/upload/c_scale,w_645/v1501542194/sprite_map_iorctw.png)
 
-The icons on the right were previously `.png` and after being redesigned as `.svg` we not only saving on bandwidth but our icons stay looking sharp due to svgs being vector graphics. Here is a look at our images in the developer panel of Chrome. This gives us a look at the 'network' impact of the images currently.
+The icons on the right were previously `.png` and after being redesigned as `.svg`'s. We not only save on bandwidth but our icons stay looking sharp due to svgs being vector graphics. Here is a look at our images in the developer panel of Chrome. This gives us a look at the 'network' impact of the images currently.
 
 ![](http://res.cloudinary.com/nic-alan/image/upload/c_scale,w_626/v1501550278/before_map_k6rmj3.jpg)
 
