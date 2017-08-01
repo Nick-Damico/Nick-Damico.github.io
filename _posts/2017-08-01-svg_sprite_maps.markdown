@@ -1,19 +1,19 @@
 ---
 layout: post
 title:  "SVG Sprite Maps"
-date:   2017-08-01 02:04:13 +0000
+date:   2017-07-31 22:04:14 -0400
 ---
 
 This last week and a half I've been working through SQL (Structured Query Language) which has been a nice change of things for me since I've been entrenched with Ruby for the past 60+ days and getting to see something different and new was a nice change. I've also always wanted to learn about databases and backend programming since all of my experience prior to starting at Flatiron has been exclusively Front End. Luckily after some hard work and time SQL and ORM are starting to become a whole lot clearer to me.
 
 Early this morning, as I sat at work drinking coffee I knew that it was time for another blog, but unlike the past few months where I blogged about what I have been currently involved with at school I decided I wanted to share something I learned a while ago and was part of front end programming. I decided on SVG icons and making a sprite map. I will hopefully have a nice blog post soon on SQL though! But until then...
 
-## Website Optimization
+# Website Optimization
 Website optimization is probably different for everyone and happens at different times during a site development process. For some, it might be at the end of the site build when they go back over their project and see where they can make improvements, and for others, it might be something they make consideration for at the very outset of the project in the 'planning stage' even before the first line of HTML or CSS is ever written.
 
 One of these places in our sites that we consider when thinking of optimizing for the web is images. It might be adjusting an images resolution or quality in photoshop or similar program. It might be deciding if an `<img>` would be better suited for a different file type like replacing a `.png` with an `.svg`. Making a decision like this can have a huge impact on a sites performance. 
 
-## HTTP Requests
+# HTTP Requests
 Images and icons bring our sites to life and enhance the viewers experience. Images make sites more enjoyable, but if not handled properly can cause frustration for the user as well. This is due to the fact that each `<img>` is another file download and request to a server. This can be bad because the server requests can start to take longer then the actually downloading of the file. In the case of small icons like the social links that we include on our sites we can minimize these requests by combining them and make one request for all.
 
 For this post I've marked up a small `<footer>` component that i'll be working with to demonstrate sprite maps. This is a somewhat typical footer component that you would find on a web page that includes a copyright on the left, and a set of social icons aligned to the right.
@@ -27,7 +27,7 @@ The icons on the right were previously `.png` and after being redesigned as `.sv
 
 As we can see above that the impact is minimal. The total download of these files is less then 5kbs! But that doesn't mean things can't be improved. In fact we can minimize network impact by reducing the number of requests to the server. We can take these (3) SVG's and combined them to just one file and with the help of the HTML5 elements they will still appear exactly as pictured above but cost our network only (1) server request. Let's get started.
 
-## Combining SVGS
+# Combining SVGS
 
 If we open our SVG files inside of our code editor, i'm using Sublime Text 3, you'll see something similar to this:
 
@@ -106,7 +106,7 @@ Awesome, we are getting closer. Let's go ahead and repeat these steps for all of
 ```
 
 
-## Adding the Sprite Map.
+# Adding the Sprite Map.
 We have our new SVG file built out with all of our icons. Its now time to add it to our HTML page. We will be copying the contents of that entire page and pasting it right after the opening `<body> ` tag on the HTML page `<index.html>`. With that done all that is left to do now is replace the `<img>` elements nested inside of my anchor elements with `<svg>` tags. Before this change here is the original markup for each img icon.
 
 ```
@@ -155,7 +155,7 @@ The request are now all gone!
 ![](http://res.cloudinary.com/nic-alan/image/upload/c_scale,w_663/v1501550278/after_map_alt4ju.jpg)
 
 
-## Finished!
+# Finished!
 Well there you have it. The result is that we are now using SVG's for our social icons and we now have our images stored inside of our HTML page and removed an HTTP request for each of those images. And best of all, its optimized and looks exactly like our original design. I hope this is something that will be useful to you in the future and another tool in your optimization toolbox.
 
 I've pushed this example to Github if you would like to look at the files for yourself and experiment.
