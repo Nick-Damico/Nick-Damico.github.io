@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby require_relative"
-date:   2017-08-19 04:46:16 +0000
+date:   2017-08-19 00:46:17 -0400
 ---
 
 
@@ -50,7 +50,7 @@ How does this work..
 
 First we should take a second and talk about `require`, which is a method that also connects our files to one another. But in this situation it will not work and that is because it is connected to a global constant named `$LOAD_PATH`. When we require a file it looks into the array $LOAD_PATH which is an array of absolute file paths. And it fails because your current directory isn't in that variable.
 
-Now there is a way to store our current directory by manipulating the $LOAD_PATH, but there is a simpler way. And that is to follow the rule that when requiring our own files use `require_relative` and specify the file with a relative path from the directory in which you are calling it from. 
+Now there is a way to store our current directory by manipulating the $LOAD_PATH, but there is a simpler way. And that is to follow the rule that Avi mentions in one of his lectures early on in the course when requiring our own files use `require_relative` and specify the file with a relative path from the directory in which you are calling it from. 
 
 A few tips:
  1. When requiring your own files stick to `require_relative`.
