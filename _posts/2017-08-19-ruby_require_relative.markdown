@@ -7,10 +7,10 @@ date:   2017-08-19 00:46:17 -0400
 
 I've learned so much in these past 3 months of school at Flatiron. Everyday, no matter if after work or early in morning on my days off, I login and start again on this path to becoming a web developer. To get to that goal of becoming a professional developer, I must learn and master these concepts and technologies that are part of that job.
 
-I'm amazed with how much of this information that I've been able to learn, but unfortunately there are some concepts that I feel like my understand of could be better. So i've made a list of these things and once a week try to do a 'deep dive' on one of those topics, maybe not to fully grasp it but to better understand it. One of those topics is `require_relative` and the best practices for requiring files in general since with Ruby there are a few different ways.
+I'm amazed with how much of this information that I've been able to learn, but unfortunately there are some concepts that I feel like my understanding of could be better. So i've made a list of these things and once a week try to do a 'deep dive' on one of those topics, maybe not to fully grasp it but to better understand it. One of those topics is `require_relative` and the best practices for requiring files in general since with Ruby there are a few different ways.
 
 # How
-We first see the need for `require_relative` once we move away from having our code in just one file. It's when our projects and apps start to grow that we need structure and a logical way of grouping our code into directories. It's with these projects with multiple files that we find ourselves in need of some way to make our code 'aware' of the other code in our projects so that it can perform its tasks and functions.
+We first see the need for requiring files once we move away from having our code in just one file. It's when our projects and apps start to grow that we need structure and a logical way of grouping our code into directories. It's with these projects with multiple files that we find ourselves in need of some way to make our code 'aware' of the other code in our projects so that it can perform its tasks and functions.
 
 We do that with `require_relative` and similar results can be accomplished with `require and load` methods too. How does `require_relative` work. Lets say we have a file that wants to instantiate an instance of a class, lets say a class of `Car`.
 
