@@ -39,7 +39,7 @@ require_relative './car'
 honda = Car.new("Honda")
 ```
 
-Greet! we are no longer receiving our (NameError) message and when we enter in the local variable of `honda` we get
+Great! we are no longer receiving our (NameError) message and when we enter in the local variable of `honda` we get
 
 ```
  honda = Car.new("Honda")
