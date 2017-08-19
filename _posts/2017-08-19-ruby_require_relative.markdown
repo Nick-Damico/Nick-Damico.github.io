@@ -54,7 +54,7 @@ Now there is a way to store our current directory by manipulating the $LOAD_PATH
 
 A few tips:
  1. When requiring your own files stick to `require_relative`.
- 2. Use `require` when specify dependencies like gems
+ 2. Use `require` when specifying dependencies like gems
  3. `./` refers to your current directory
  4. `../` refers to your current directories parent directory.
 
