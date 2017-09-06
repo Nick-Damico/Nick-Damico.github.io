@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "What is this File Class?"
-date:   2017-09-05 23:58:50 +0000
+date:   2017-09-05 19:58:50 -0400
 ---
 
 
-I have this list of things I don't quite understand, well actually I mean its a list of things about the programming concepts or things within the programming languages I'm studying that I don't quite understand. This list grows by the day and I'm sure this is normal. Its a normal thing I feel to not understand it all, no matter how much we want to. We encounter these things that are rare use cases, or they seem to deep to tackle at the present moment, so we pass them by and make a mental note to return to it later, or in my case write it down on a list. 
+I have this list of things I don't quite understand, well actually I mean its a list of things about the programming concepts or things within the programming languages I'm studying that I don't quite understand. This list grows by the day and I'm sure this is normal. Its a normal thing I feel to not understand it all, no matter how much we want to. We encounter these things that are rare use cases, or they seem too deep to tackle at the present moment, so we pass them by and make a mental note to return to it later, or in my case write it down on a list. 
 
 I decided recently to use my blog as a means to mark one of these misunderstood or inferred programming concepts off my list. This is where the Ruby Class `File` comes in. I had assumptions of what the `File` class and its methods were doing from my programming experience. I look at code like this `file.split(file_name)` or this thing `__FILE__`.. I tell myself I have a good idea what this is doing, but Its time to open up my text editor and start working with some code so that I can really understand.
 
